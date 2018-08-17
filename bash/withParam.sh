@@ -85,7 +85,6 @@ localPath="/tmp"
 ### après test, supprimer la ligne echo truc, décommenter la ligne mongo
 ########
 echo "truc" > $localPath/$fileName
-#mongo smartuxdb -u mongouser -p mongopassword --quiet hubdata-export.js > $localPath/$fileName
 gzip $localPath/$fileName
 
 
